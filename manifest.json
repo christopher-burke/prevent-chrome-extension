@@ -1,0 +1,11 @@
+{
+  "name": "Prevent",
+  "version": "0.1",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "js": ["script.js"],
+      "matches": ["https://imgur.com/*", "https://yahoo.com/*"]
+    }
+  ]
+}
